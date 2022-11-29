@@ -1,0 +1,95 @@
+body{
+    margin: 0 auto;
+}
+
+.header{
+    /* background-color: #2c2c2c; */
+    color: aliceblue;
+    display: flex; 
+    height: 50px;
+}
+.leftside{
+    display: flex;
+    border: 1px red solid;
+    flex-grow: 1; 
+
+    /* background-color: #2c2c2c; */
+
+
+    /* align-items: center;  */
+}
+
+.menue:hover{
+    background-color: aqua;
+}
+.svg1{
+    /* background-color: #2c2c2c; */
+    color: aliceblue;
+}
+.svg2{
+    /* background-color: #2c2c2c;; */
+
+}
+.svg2{
+    transition: all ease-in-out 0.5s;
+}
+.move{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 20%;
+
+}
+.hand{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+
+}
+.comment{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+.mainside{
+    display: flex;
+    border: 1px red solid;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 4; 
+
+}
+.rightside{
+    display: flex;
+    border: 1px red solid;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+
+
+
+
+}
+.user{
+    /* background-color: aqua; */
+    width: 20%;
+}
+.share{
+    background-color: aqua;
+    width: 20%;
+}
+.present{
+    background-color: aqua;
+    width: 20%;
+}
+.zoom{
+    background-color: aqua;
+    width: 20%;
+}
