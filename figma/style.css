@@ -2,7 +2,525 @@ body{
     margin: 0;
     padding: 0;
 }
+.bg-image{
+    background: url("pictures/Header.jpg") fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    /* opacity: 0.85; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.shape1{
+    background: white;
+    color: white;
+    background: url("pictures/shape1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 47.976078033447266px;
+    width: 47.97711181640625px;
+    left: 0.01171875px;
+    top: 0.010009765625px;
+    border-radius: 0px;
+    z-index: 1;
+    align-self: flex-start;
+
+
+
+}
 .design{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
+.p1{
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.70em;
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+.p2{
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.47em;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.bg-image .btn{
+    padding: 10px 15px 10px 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    align-self: center;
+    color: #0B0B0B;
+    background: #FDE500;
+}
+.mountain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+.shape2{
+    background: url("pictures/CompositePath.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65.9754867553711px;
+    width: 145.0175018310547px;
+    left: -0.0078125px;
+    top: 0.0240478515625px;
+    border-radius: 0px;
+    padding-bottom: 10%;
+}
+.p3{
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.55em;
+    text-align: center;
+    color: black;
+    padding: 0% 30% 10% 30%;
+
+}
+.jobsWeDid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 241px;
+    width: 100%;
+    left: 0px;
+    top: 2369px;
+    border-radius: 0px;
+    background-color: black;
+
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 71px;
+    width: 20%;
+    background-color: white;
+    z-index: 1;
+
+}
+.block p{
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    color: black;
+    margin: 0%;
+}
+.like{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 241px;
+    width: 100%;
+    left: 0px;
+    top: 2369px;
+    border-radius: 0px;
+}
+.like .btn{
+    padding: 8px 25px 8px 25px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 7px;
+    line-height: 13px;
+    letter-spacing: 0.45em;
+    text-transform: uppercase;
+    align-self: center;
+    color: #0B0B0B;
+    background: #FDE500;
+}
+.VIDEO{
+    height: 380px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bg-image2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("pictures/ADDIMAGEHERE.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    width: 100%;
+    height: 380px;
+    z-index: -1;
+    /* opacity: 0.85; */
+}
+.bg-image2 .btn{
+    height: 76px;
+    width: 371px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #FDE500;
+    z-index: 1;
+
+    }
+    /* .john-doe-seo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        height: 500px;
+        background-color: white;
+    }
+    .rectangle{
+        height: 30%;
+        background-color: #FDE500;
+    } */
+    /* .boxleft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        z-index: 2;
+        background-color: #0B0B0B;
+        height: 250px;
+
+    } */
+    .team{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        align-items: center;
+        height: 700px;
+        background: #FFFFFF;
+
+    }
+    .shape3{
+        background: url("pictures/Composite\ Path-1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 25px;
+        width: 69px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        padding-bottom: 5%;
+        /* padding-top: 5%; */
+    }
+    .p6{
+        width: 391px;
+        height: 28px;
+        left: calc(50% - 391px/2 + 0.5px);
+        top: 4257px;
+        font-family: 'Raleway';
+        font-style: normal;
+        /* font-weight: 600;
+        font-size: 20px; */
+        line-height: 140%;
+        /* identical to box height, or 28px */   
+        text-align: center;
+        letter-spacing: 0.78em;
+        text-transform: uppercase;
+        color: #0B0B0B;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .p7{
+        width: 764px;
+        height: 66px;
+        left: calc(50% - 764px/2);
+        top: 4308px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        /* font-weight: 400;
+        font-size: 16px; */
+        line-height: 206%;
+        /* or 33px */
+        
+        text-align: center;
+        letter-spacing: 0.05em;
+        
+        /* Black */
+        
+        color: #0B0B0B;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+        
+    }
+    .members{
+        padding-top: 15px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .member{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 450px;
+        width: 230px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+        margin-right: 10px;
+    }
+    .bg-image3{
+        display: flex;
+        background: url("pictures/member1.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 60%;
+        left: 0px;
+        top: 0px;
+        background-size: cover;
+    }
+    .bg-image4{
+        display: flex;
+        background: url("pictures/member2.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 60%;
+        left: 0px;
+        top: 0px;
+        background-size: cover;
+    }
+    .bg-image5{
+        display: flex;
+        background: url("pictures/member3.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 60%;
+        left: 0px;
+        top: 0px;
+        background-size: cover;
+    }
+    .bg-image6{
+        display: flex;
+        background: url("pictures/member4.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 60%;
+        left: 0px;
+        top: 0px;
+        background-size: cover;
+    }
+
+    .marker{
+        width: 100%;
+        height: 20%;
+        background: #FDE500;
+        z-index: 1;
+        opacity: 0.9;
+        align-self: flex-end;
+    }
+    .name{
+        left: 8.39%;
+        right: 8.49%;
+        top: 59.62%;
+        bottom: 36.35%;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        /* font-weight: 600;
+        font-size: 13px; */
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.25em;
+        color: #0B0B0B;
+    }
+    .aboutmember{
+        left: 8.03%;
+        right: 8.06%;
+        top: 70.96%;
+        bottom: 6.73%;
+        
+        font-family: 'Raleway';
+        font-style: italic;
+        /* font-weight: 400;
+        font-size: 12px; */
+        line-height: 200%;
+        /* or 24px */
+        
+        text-align: center;
+        letter-spacing: 0.05em;
+        
+        /* Black */
+        
+        color: #0B0B0B;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        height: 929px;
+        width: 100%;
+        left: 0px;
+        top: 2369px;
+        border-radius: 0px;
+        background: #F4F4F4;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+        margin-right: 10px;
+        height: 353px;
+        width: 274px;
+        background: #FFFFFF;
+
+    }
+    .shape4{
+        width: 72px;
+        height: 71px;
+        left: 101px;
+        top: 41px;
+        background: url("pictures/Vector\ Smart\ Object-3.png");
+    }
+    .shape5{
+        width: 72px;
+        height: 71px;
+        left: 101px;
+        top: 41px;
+        background: url("pictures/Vector\ Smart\ Object-2.png");
+    }
+    .shape6{
+        width: 72px;
+        height: 71px;
+        left: 101px;
+        top: 41px;
+        background: url("pictures/Vector\ Smart\ Object-1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .shape7{
+        width: 72px;
+        height: 71px;
+        left: 101px;
+        top: 41px;
+        background: url("pictures/Vector\ Smart\ Object.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .servicetype{
+        width: 208px;
+        height: 45px;
+        left: calc(50% - 208px/2);
+        top: 136px;
+        
+        font-family: 'Raleway';
+        font-style: italic;
+        /* font-weight: 600;
+        font-size: 16px; */
+        line-height: 140%;        
+        text-align: center;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #0B0B0B;
+    }
+    .serviceexplain{
+        width: 210px;
+        height: 116px;
+        left: calc(50% - 210px/2);
+        top: 216px;
+        font-family: 'Raleway';
+        font-style: italic;
+        /* font-weight: 400;
+        font-size: 13px; */
+        line-height: 150%; 
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #0B0B0B;
+        margin-top: 0;
+    }
+    .language{
+        height: 166px;
+        width: 274px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    }
+    .languageType{
+        left: 0%;
+        right: 45.24%;
+        top: 0%;
+        bottom: 42.86%;
+        font-family: 'Raleway';
+        font-style: italic;
+        /* font-weight: 600;
+        font-size: 14px; */
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        color: #0B0B0B;
+    }
+    .greyline{
+        z-index: 1;
+        background: url("pictures/Rectangle\ \(1\).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 5px;
+        width: 242px;
+        left: 0px;
+        top: 30px;
+        border-radius: 10px;
+        }
+    .yellowLine{
+        background: url("pictures/Rectangle.png");
+        z-index: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 5px;
+        width: 217px;
+        left: 988px;
+        top: 2203px;
+    }
+        
+
+
