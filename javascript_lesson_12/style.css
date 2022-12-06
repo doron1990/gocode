@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+}
+.board{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex; 
+    position: relative;
+}
+.square{
+    display: flex; 
+    height: 90px;
+    width: 100px;
+
+}
+.white{
+    background-color: white;
+
+}
+.black{
+    background-color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+.player1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: brown;
+    transition: all ease-in-out 0.5s;
+
+
+}
+.player2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    transition: all ease-in-out 0.5s;
+
+
+
+}
+.player2:hover{
+    background-color: brown;
+}
+.player1:hover{
+    background-color: yellow;
+}

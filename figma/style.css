@@ -2,24 +2,30 @@ body{
     margin: 0;
     padding: 0;
 }
-.bg-image{
-    background: url("pictures/Header.jpg") fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 700px;
-    z-index: -1;
-    /* opacity: 0.85; */
+.design{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.bg-image{
+    background: url("pictures/Header.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 39em;
+    z-index: -1;
+    /* opacity: 0.85; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 .shape1{
     background: white;
     color: white;
-    background: url("pictures/shape1.png");
-    background-position: left;
+    background: url("pictures/Vector\ \(2\).png");
+    background-position:top;
     background-repeat: no-repeat;
     background-size: contain;
     height: 47.976078033447266px;
@@ -28,15 +34,11 @@ body{
     top: 0.010009765625px;
     border-radius: 0px;
     z-index: 1;
-    align-self: flex-start;
-
-
-
-}
-.design{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self:flex-start;
+    margin-left: 15%;
+    margin-bottom: 13%;
+    margin-top: 3%;
+    
 }
 .p1{
     font-family: Raleway;
@@ -137,6 +139,165 @@ body{
     color: black;
     margin: 0%;
 }
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 46vw;
+    width: 100%;
+    left: 0px;
+    top: 2369px;
+    border-radius: 0px;
+    background: #F4F4F4;
+    padding-top: 3%;
+}
+.blockPort{
+    display: flex;
+    justify-content: space-around;
+    width: 1168px;
+    height: 63px;
+    left: calc(50% - 1168px/2);
+    top: 2979px;
+
+}
+.portfoliolineSign{
+    width: 1168px;
+    height: 20px;
+    left: calc(50% - 1168px/2);
+    top: 2979px;
+    background: url("pictures/Line\ \(1\).png");
+
+}
+.portfolioSign{
+    background: url("pictures/Vector\ \(3\).png");
+    height: 103.94816589355469px;
+    width: 103.95040893554688px;
+    left: 0.02587890625px;
+    top: 0.021484375px;
+    border-radius: 0px;
+    align-self: center;
+}
+.portfolioGallery{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.portfolioPic1{
+    height: 100%;
+    width: 18%;
+    background: url("pictures/1.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+}
+.portfolioPic2{
+    height: 100%;
+    width: 18%;
+    background: url("pictures/2.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+
+}
+.portfolioPic3{
+    position: relative;
+    height: 100%;
+    width: 18%;
+    background: url("pictures/3.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+}
+.portfolioPic4{
+    height: 100%;
+    width: 18%;
+    background: url("pictures/4.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+}
+.portfolioPic5{
+    height: 100%;
+    width: 18%;
+    background: url("pictures/5.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+}
+.portfolioPic6{
+    height: 100%;
+    width: 18%;
+    background: url("pictures/6.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+}
+.yellowRec{
+    position: relative;
+    height: 65%;
+    width: 75%;
+    background: #FDE500;
+    opacity: 0.9;
+    z-index: 1;
+    margin: auto;
+    margin-top: 12%;
+}
+.whiteRec{
+    position: absolute;
+    height: 55%;
+    width: 90%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 20%);
+    z-index: 2;
+    margin-top: -83%;
+    margin-left: 5%;
+
+}
+.p9{
+    position: absolute;
+    width: 227.74px;
+    height: 21px;
+    left: calc(50% - 227.74px/2 - 0px);
+    /* top: 32px; */
+    
+    font-family: 'Raleway';
+    font-style: italic;
+    /* font-weight: 600; */
+    font-size: 13px;
+    /* line-height: 140%;     */
+    text-align: center;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #0B0B0B;
+}
+.p10{
+    position: absolute;
+    width: 229.93px;
+    height: 116px;
+    left: calc(50% - 229.93px/2 + 0px);
+    top: 30px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 12px;
+    line-height: 180%;
+    /* or 24px */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    /* Black */
+    
+    color: #0B0B0B;
+}
 .like{
     display: flex;
     justify-content: flex-start;
@@ -194,26 +355,90 @@ body{
     z-index: 1;
 
     }
-    /* .john-doe-seo{
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        height: 500px;
-        background-color: white;
-    }
-    .rectangle{
-        height: 30%;
-        background-color: #FDE500;
-    } */
-    /* .boxleft{
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        z-index: 2;
-        background-color: #0B0B0B;
-        height: 250px;
+.john-doe-seo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 40vw;
+    background-color: white;
+}
+.rectangleYellow{
+    position: relative;
+    height: 30%;
+    background-color: #FDE500;
+    margin-top: 5%;
+}
+.boxleft{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: black;
+    margin-left: 10%;
 
-    } */
+}
+.seoText{
+    position: absolute;
+    left: 12.94%;
+    right: 12.94%;
+    top: 13.95%;
+    bottom: 17.63%;
+    
+    font-family: 'Raleway';
+    font-style: italic;
+    /* font-weight: 400; */
+    font-size: 12px;
+    line-height: 250%;
+    /* or 24px */
+    
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.p5{
+    /* position: absolute; */
+    width: 402px;
+    height: 81px;
+    left: 467px;
+    top: 5499px;
+    
+    font-family: 'Raleway';
+    font-style: italic;
+    /* font-weight: 400; */
+    font-size: 13px;
+    line-height: 206%;
+    /* or 27px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #0B0B0B;
+    margin-left: 17%;
+    margin-top: 10%;
+
+}
+.sign{
+    width: 42%;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 206%;    
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #0B0B0B;
+}
+.boxright{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    border-radius: 0px;
+    background-color: black;
+    margin-left: 52%;
+
+}
     .team{
         display: flex;
         flex-direction: column;
@@ -497,6 +722,8 @@ body{
         line-height: 100%;
         letter-spacing: 0.05em;
         color: #0B0B0B;
+        margin-left: 5%;
+        padding-top: 1%;
     }
     .greyline{
         z-index: 1;
@@ -509,6 +736,8 @@ body{
         left: 0px;
         top: 30px;
         border-radius: 10px;
+        margin-left: 5%;
+
         }
     .yellowLine{
         background: url("pictures/Rectangle.png");
@@ -521,6 +750,159 @@ body{
         left: 988px;
         top: 2203px;
     }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 387px;
+        left: 0px;
+        top: 5691px;        
+        background: #0B0B0B;
+    }
+    .footerShape{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shape8{
+        margin-top: 46px;
+        height: 119.948166px;
+        width: 182.950409px;
+        left: 0.02587890625px;
+        top: 0.021484375px;
+        border-radius: 0px;
+        background: #FFFFFF;
+        background: url("pictures/Vector.png");
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .p8{
+        width: 371px;
+        height: 81px;
+        left: 376px;
+        top: 5844px;
+            
+        font-family: 'Raleway';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 206%;
+        /* or 27px */
+            
+        letter-spacing: 0.05em;
+            
+        color: #FFFFFF;
+     }
+    .links{
+        width: 135px;
+        height: 185px;
+        left: 781px;
+        top: 5773px;
+        
+        font-family: 'Raleway';
+        font-style: italic;
+        /* font-weight: 600; */
+        font-size: 13px;
+        /* line-height: 250%; */
+        letter-spacing: 0.05em;    
+        color: #FFFFFF;
+        padding-left: 20px;
+    }
+    .contactUs{
+        width: 371px;
+        height: 200px;
+        left: 376px;
+        top: 5844px;
+            
+        font-family: 'Raleway';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 206%;            
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding-left: 20px;
+
+    }
+    .mail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 45px;
+        width: 372px;
+        left: 0px;
+        top: 0px;
+        border-radius: 27px;
+        background: #FDE500;
+        margin-bottom: 3%;
+    }
+    .address{
+        left: 13.91%;
+        right: 13.91%;
+        top: 33.33%;
+        bottom: 36.67%;
+        font-family: 'Raleway';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;        
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: #0B0B0B;
+    }
+    .contactSigns{
+        display: flex;
+    }
+        .basketball{
+            background: url("pictures/basketball.png");
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 34.00002670288086px;
+            width: 34.00002670288086px;
+            left: 0.01025390625px;
+            top: 0px;
+            border-radius: 0px;
+            padding-right: 3%;
+        }
+        .facebook{
+            background: url("pictures/facebook.png");
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 34.00002670288086px;
+            width: 34.00002670288086px;
+            left: 0.01025390625px;
+            top: 0px;
+            border-radius: 0px;
+            padding-right: 3%;
+
+        }
+        .twitter{
+            background: url("pictures/twitter.png");
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 34.00002670288086px;
+            width: 34.00002670288086px;
+            left: 0.01025390625px;
+            top: 0px;
+            border-radius: 0px;
+            padding-right: 3%;
+
+        }
+        .google{
+            background: url("pictures/google.png");
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 34.00002670288086px;
+            width: 34.00002670288086px;
+            left: 0.01025390625px;
+            top: 0px;
+            border-radius: 0px;
+            padding-right: 3%;
+
+        }
         
 
 
