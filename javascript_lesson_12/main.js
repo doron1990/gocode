@@ -1,92 +1,91 @@
 
 
-// //ex1
-// // const inpt = document.createElement('input')
-// // inpt.innerHTML = ('<input type="text" id="myText">')
-// // document.body.appendChild(inpt)
+// // //ex1
+// const inpt = document.createElement('input')
+// inpt.innerHTML = ('<input type="text">')
+// document.body.appendChild(inpt)
 
 // const btn = document.createElement('button')
 // btn.innerHTML = ('<button onclick="show()">Try it</button>')
 // document.body.appendChild(btn)
 
-// // const txt = document.createElement('p')
-// // txt.innerHTML = ('<p id="demo"></p>')
-// // document.body.appendChild(txt)
-
 // function show() {
-//     var x = document.getElementById("myText").value;
-//     alert(x)
-//     // document.getElementById("demo").innerHTML = x;
+//     var x = document.querySelector('input')
+//     alert(x.value)    
 // }
-// //ex2
+// // //ex2
+// const para = document.createElement('p')
+// para.innerHTML = ('<p></p>')
+// document.body.appendChild(para)
+
 // function showCoords(event) {
-//     var x = event.clientX;
-//     var y = event.clientY;
-//     var coords = "X coords: " + x + ", Y coords: " + y;
-//     document.getElementById("demo").innerHTML = coords;
+//     const x = event.clientX;
+//     const y = event.clientY;
+//     const coords = "X coords: " + x + ", Y coords: " + y;
+//     document.querySelector("p").innerHTML = coords;
 // }
 // function clearCoor() {
-//     document.getElementById("demo").innerHTML = "";
-//   }
+//     document.querySelector("p").innerHTML = "";
+// }
+// //ex3
+// const inpt2 = document.createElement('input')
+// inpt2.innerHTML = ('<input type="text">')
+// document.body.appendChild(inpt2)
+
+// const btn2 = document.createElement('button')
+// btn2.innerHTML = ('<button>img</button>')
+// document.body.appendChild(btn2)
+
+// btn2.addEventListener('click', function () {
+//     const src = inpt2.value
+//     console.log(src)
+// })
  
-//ex4
+// //ex4
+// const para2 = document.createElement('p')
+// para2.innerHTML = ('<p class ="arr"></p>')
+// document.body.appendChild(para2)
+
 // const arr = [1, 2, 3, 5, 6, 7, 9]
-// document.getElementById("demo").innerHTML = arr;
+// document.querySelector(".arr").innerHTML = arr;
 // const rmv = document.createElement('button')
 // rmv.innerHTML = ('<button onclick="remove()">Remove</button>')
 // document.body.appendChild(rmv)
+
 //  function remove(){
 //      arr.pop()
-//      document.getElementById("demo").innerHTML = arr;
+//      document.querySelector(".arr").innerHTML = arr;
 //  }
 
-//ex5
-
-//********* זה לא עבד לי אשמח להבין איפה הטעות */
+// //ex5
 // const blue = document.createElement('button')
-// blue.innerHTML = ('<class="bgc">Blue</button>')
+// blue.innerHTML = ('<button>Blue</button>')
 // document.body.appendChild(blue)
 // const red = document.createElement('button')
-// red.innerHTML = ('<class="bgc">Red</button>')
+// red.innerHTML = ('<button>Red</button>')
 // document.body.appendChild(red)
 // const green = document.createElement('button')
-// green.innerHTML = ('<class="bgc">Green</button>')
+// green.innerHTML = ('<button>Green</button>')
 // document.body.appendChild(green)
 // const pink = document.createElement('button')
-// pink.innerHTML = ('<class="bgc">Pink</button>')
+// pink.innerHTML = ('<button>Pink</button>')
 // document.body.appendChild(pink)
 
 
-// const buttons = document.querySelectorAll(".bgc")
-// buttons.forEach(function(element){
-//     element.addEventListener('click', function(event){
-//         document.body.style.backgroundColor = 'blue'    })
-// })
-
-
-//******************         זה עובד       */
 // const buttons = document.querySelectorAll("button")
 // buttons.forEach(function(element){
 //     element.addEventListener('click', function (event) {
 //         const txt = element.innerText;
-//         if (txt === "blue") {
-//             document.body.style.backgroundColor = 'blue'
-//         }
-//         if (txt === "red") {
-//             document.body.style.backgroundColor = 'red'
-//         }
-//         if (txt === "green") {
-//             document.body.style.backgroundColor = 'green'
-//         }
-//         if (txt === "pink") {
-//             document.body.style.backgroundColor = 'pink'
-//         }
+//         document.body.style.backgroundColor = txt
 //     })
 // })
 
-//ex6
-// const arrColors = ["yellow", "green", "pink", "red"]
-// document.getElementById("demo").innerHTML = arrColors;
+// //ex6
+// const para3 = document.createElement('p')
+// para3.innerHTML = ('<p class ="randc"></p>')
+// document.body.appendChild(para3)
+// const arrColors = ["yellow", "green", "pink", "red", "orange", "blue", "grey", "brown"]
+// document.querySelector(".randc").innerHTML = arrColors;
 
 // function getRandom(min, max) {
 //     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -97,32 +96,7 @@
 //     document.body.style.backgroundColor = arrColors[random]
 // }, 2000);
 
-//ex search
 
-// function searchList() {
-//     const list = document.getElementsByTagName("ul")
-//     const items = document.getElementsByTagName("li")
-//     for (i = 0; i < items.length; i++) {
 
-        
-//     }
-// }
-
-function searchList() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("search");
-    filter = input.value.toUpperCase();
-    ul = document.getElementsByTagName("ul");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
 
 
